@@ -1,13 +1,148 @@
+/* Global styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5; /* Light background */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* HeaderContainer styles */
+.header-container {
+  background-color: #2c3e50; /* Dark blue header */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Align items to the left and right */
+  align-items: center; /* Vertically center items */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
+
+/* Logo styles */
+.logo {
+  margin: 0;
+  font-size: 24px; /* Larger font size */
+}
+
+.logo img {
+  width: 60px; /* Adjust logo size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Rounded logo */
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); /* Glowing effect */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.logo img:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+/* Main section styles */
+.main-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.main-section h1 {
+  font-size: 36px;
+  color: #2c3e50; /* Dark blue text */
+  margin-bottom: 20px;
+}
+
+.main-section p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Call to action button */
+.cta-button {
+  background-color: #e67e22; /* Orange button */
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #d35400; /* Darker orange on hover */
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5; /* Light background */
+}
+
+/* HeaderContainer styles */
+.header-container {
+  background-color: #2c3e50; /* Dark blue header */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Align items to the left and right */
+  align-items: center; /* Vertically center items */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Logo styles */
+.logo {
+  margin: 0;
+  font-size: 24px; /* Larger font size */
+}
+
+.logo img {
+  width: 60px; /* Adjust logo size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Rounded logo */
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); /* Glowing effect */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.logo img:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+/* Main section styles */
+.main-section {
+  display: flex;
+  justify-content: space-between; /* Push text to one side */
+  padding: 50px;
+}
+
+.main-section-content {
+  max-width: 50%; /* Limit text width */
+}
+
+.main-section h1 {
+  font-size: 36px;
+  color: #2c3e50; /* Dark blue text */
+  margin-bottom: 20px;
+}
+
+.main-section p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Product section styles */
+.product-section {
+  padding: 50px;
+  background-color: #fff; /* White background */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.product-section h2 {
+  font-size: 28px;
+  color: #2c3e50; /* Dark blue text */
+  margin-bottom: 20px;
+}
+
+.product-section p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+

@@ -14,7 +14,7 @@ const fadeIn = keyframes`
 
 // Styled components
 const HeaderContainer = styled.header`
-  background-color: #333;
+  background-color: #000000;
   color: white;
   padding: 20px;
   display: flex;
@@ -25,13 +25,13 @@ const HeaderContainer = styled.header`
 
 const Logo = styled.h1`
   margin: 0;
-  font-size: 24px;
+  font-size: 30px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   animation: ${fadeIn} 0.5s ease;
 
   img {
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 90px; /* Adjust the width as needed */
+    height: 70px; /* Maintain aspect ratio */
   }
 `;
 
