@@ -77,7 +77,7 @@ function Header({ setPage }) {
                         <button onClick={() => setPage('login')}>Login</button>
                     </li>
                     <li>
-                        <button onClick={() => setPage('dashboard')}>Login</button>
+                        <button onClick={() => setPage('dashboard')}>Dashboard</button>
                     </li>
                     {/* Add more navigation items here */}
                 </ul>

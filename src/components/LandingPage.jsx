@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../styles.css'; // Import your CSS file for styling
+import img from "../img.gif";
 
 function FancyLandingPage() {
     useEffect(() => {
@@ -43,9 +44,14 @@ function FancyLandingPage() {
         <div className="landing-page">
             <div className="container">
                 <div className="landing-content">
-                    <h1 className="neon-text">Welcome to Hestia</h1>
-                    <p>Your ultimate home system for comfort, security, and convenience.</p>
-                    <a href="#" className="cta-button">Get Started</a>
+                    <div className="logo-container">
+                        <img src={img} alt="Logo" className="logo2" />
+                    </div>
+                    <div className="text-container">
+                        <h1 className="neon-text">Welcome to Hestia</h1>
+                        <p>Your ultimate home system for comfort, security, and convenience.</p>
+                        <a href="#" className="cta-button">Get Started</a>
+                    </div>
                 </div>
             </div>
         </div>
