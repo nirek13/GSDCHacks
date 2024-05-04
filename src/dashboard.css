@@ -1,0 +1,102 @@
+.dashboard {
+    padding: 50px;
+    background-color: #000; /* Dark background color */
+    color: #fff; /* Light text color */
+    border-radius: 10px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: inherit; /* Inherit text color */
+    align-content: center;
+    border-radius: 50px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #444; /* Darker border color */
+}
+
+th {
+    background-color: #333; /* Darker background color */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #444; /* Even row background color */
+}
+
+tbody tr:hover {
+    background-color: #555; /* Hovered row background color */
+}
+
+.important {
+    background-color: #ffc107 !important; /* Important row background color */
+}
+.dashback{
+background-color: #090909;
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+.dashboard {
+    padding: 50px;
+    background-color: #000; /* Dark background color */
+    color: #fff; /* Light text color */
+    border-radius: 10px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: inherit; /* Inherit text color */
+    align-content: center;
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #444; /* Darker border color */
+}
+
+th {
+    background-color: #333; /* Darker background color */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #444; /* Even row background color */
+}
+
+tbody tr:hover {
+    background-color: #555; /* Hovered row background color */
+}
+
+.important {
+    background-color: #ffc107 !important; /* Important row background color */
+}
+
+.dashback{
+     /* Background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Text color */
+    font-size: 24px;
+    padding: 20px;
+}

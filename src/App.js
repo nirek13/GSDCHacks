@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import LoginPage from './components/LoginPage';
+import Header from "./components/Header";
+import LandingPage from "./components/LandingPage";
+import Dashboard from "./components/dashboard"; // Import the Dashboard component
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [page, setPage] = useState('home');
+
+    return (
+        <div className="App">
+            <Header setPage={setPage} />
+            <div className="content">
+                {page === 'home' && <LandingPage/>}
+                {page === 'login' && <LoginPage />}
+                {page === 'dashboard' && <Dashboard />} {/* Use the Dashboard component */}
+            </div>
+        </div>
+    );
 }
 
 export default App;
